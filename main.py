@@ -50,8 +50,8 @@ if __name__ == "__main__":
     config = Config
     
     tokenizer = Tokenizer()
-    print(tokenizer.encode("te"))
-    print(tokenizer.decode([1,2]))
+    
+    loss_fn = Categorical()
     
     
     

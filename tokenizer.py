@@ -34,17 +34,14 @@ class Tokenizer():
         
     def encode(self, text):
         out = []
-        text = "I love you!"
         for item in text:
             out.append(self.encode_tokenizer[item])
         return out
     
     def decode(self, text_list):
         out = []
-        text_list = [1, 3, 5, 6, 23, 4, 12]
         for item in text_list:
             out.append(self.decode_tokenizer[item])
-        
         return "".join(out)
 
             
