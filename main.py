@@ -50,9 +50,9 @@ if __name__ == "__main__":
     config = Config
     
     tokenizer = Tokenizer()
-    
     loss_fn = Categorical()
     
+    ## TODO: model
     
     
     
